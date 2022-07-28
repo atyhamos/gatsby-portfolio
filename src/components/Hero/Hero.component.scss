@@ -1,0 +1,11 @@
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 1em;
+  span {
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    padding: 0.5em 0.7em;
+  }
+}

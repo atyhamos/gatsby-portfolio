@@ -1,0 +1,21 @@
+form {
+  display: flex;
+  flex-direction: column;
+  input,
+  textarea,
+  button {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1em;
+    font-size: 1rem;
+    padding: 0 0.2em 0.2em 0.4em;
+  }
+}
+
+.email-address {
+  display: inline-block;
+  margin-bottom: 1.1em;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
