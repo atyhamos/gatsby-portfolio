@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@fontsource/playfair-display": "^4.5.10",
+    "@fontsource/raleway": "^4.5.9",
     "@formspree/react": "^2.3.0",
     "gatsby": "^4.19.2",
     "gatsby-plugin-sass": "^5.19.0",
