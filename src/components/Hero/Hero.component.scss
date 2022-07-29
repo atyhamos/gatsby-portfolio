@@ -1,11 +1,63 @@
+$color-yellow-dark: #d79922;
+$color-beige: #efe2ba;
+$color-red-orange: #f13c20;
+$color-blue: #4056a1;
+$color-blue-light: #c5cbe3;
+
+.read-more {
+  text-align: right;
+  a {
+    text-decoration: none;
+    width: auto;
+    font-size: 0.9rem;
+    color: $color-blue;
+    text-align: right;
+  }
+  a:hover,
+  a:focus {
+    // font-weight: bolder;
+    background-color: $color-blue-light;
+    color: black;
+  }
+}
+
+.my-skills {
+  position: relative;
+}
+.my-skills:before {
+  position: absolute;
+  content: '';
+  height: 0.4em;
+  bottom: 0em;
+  left: -0.1em;
+  background-color: $color-red-orange;
+  width: 80px;
+  z-index: -1;
+}
+
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   gap: 1em;
   span {
-    border: 1px solid black;
+    i {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    // border: 1px solid black;
     color: black;
     text-align: center;
     padding: 0.5em 0.7em;
+    scale: 1;
+    transition: scale 250ms;
+  }
+
+  span:hover,
+  span:focus {
+    background-color: $color-beige;
+    scale: 1.1;
   }
 }

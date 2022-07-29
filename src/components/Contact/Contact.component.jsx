@@ -13,8 +13,8 @@ const Contact = () => {
     <div>
       <h2>Keep in touch</h2>
       <p>
-        Feel free to drop me an email if you're looking for a developer, have a
-        question, or just want to connect.
+        Feel free to drop me an email if you have a question, or just want to
+        connect.
       </p>
       <a className='email-address' href='mailto:amostan.dev@gmail.com'>
         amostan.dev@gmail.com

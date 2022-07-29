@@ -7,14 +7,27 @@ import '../styles/index.scss'
 import Hero from '../components/Hero/Hero.component'
 import Projects from '../components/Projects/Projects.component'
 import Contact from '../components/Contact/Contact.component'
+import Navigation from '../components/Navigation/Navigation.component'
+import { Helmet } from 'react-helmet'
+import Footer from '../components/Footer/Footer.component'
 
 const IndexPage = () => {
   return (
-    <div className='body-container'>
-      <Hero />
-      <Projects />
-      <Contact />
-    </div>
+    <>
+      <Helmet>
+        <link
+          rel='stylesheet'
+          href='https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css'
+        />
+      </Helmet>
+      <div className='body-container'>
+        <Navigation />
+        <Hero />
+        <Projects />
+        <Contact />
+      </div>
+      <Footer />
+    </>
   )
 }
 
