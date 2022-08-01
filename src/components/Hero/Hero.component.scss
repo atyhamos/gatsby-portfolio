@@ -4,60 +4,82 @@ $color-red-orange: #f13c20;
 $color-blue: #4056a1;
 $color-blue-light: #c5cbe3;
 
-.read-more {
-  text-align: right;
-  a {
-    text-decoration: none;
-    width: auto;
-    font-size: 0.9rem;
-    color: $color-blue;
-    text-align: right;
-  }
-  a:hover,
-  a:focus {
-    // font-weight: bolder;
-    background-color: $color-blue-light;
-    color: black;
-  }
-}
-
-.my-skills {
-  position: relative;
-}
-.my-skills:before {
-  position: absolute;
-  content: '';
-  height: 0.4em;
-  bottom: 0em;
-  left: -0.1em;
-  background-color: $color-red-orange;
-  width: 80px;
-  z-index: -1;
-}
-
-.skills-container {
+.hero-container {
+  height: 100vh;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap: 1em;
-  span {
-    i {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
-    }
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    // border: 1px solid black;
-    color: black;
-    text-align: center;
-    padding: 0.5em 0.7em;
-    scale: 1;
-    transition: scale 250ms;
+  place-content: center;
+
+  h1 {
+    font-size: 3.5rem;
+  }
+  .developer {
+    color: $color-yellow-dark;
   }
 
-  span:hover,
-  span:focus {
-    background-color: $color-beige;
-    scale: 1.1;
+  p {
+    line-height: 1.6rem;
+  }
+
+  .highlight-arts,
+  .highlight-responsive {
+    position: relative;
+  }
+  .highlight-arts:before {
+    content: 'visual arts and design.';
+    background: $color-blue;
+    animation: highlight 2s cubic-bezier(0.9, 0.02, 0.89, 0.66);
+    color: #f5f5f5;
+  }
+  .highlight-responsive:before {
+    content: 'responsive';
+    background: $color-yellow-dark;
+    animation: highlight 2.5s cubic-bezier(0.95, 0.02, 0.89, 0.66);
+  }
+  .highlight-arts:before,
+  .highlight-responsive:before {
+    display: inline-block;
+    overflow-y: hidden;
+    word-break: break-all;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0px 3px 1px 3px;
+    margin: 0px -3px -1px -3px;
+    top: 1;
+    left: 0;
+  }
+
+  @keyframes highlight {
+    0% {
+      width: 0;
+      opacity: 0;
+    }
+
+    50% {
+      width: 0;
+      opacity: 1;
+    }
+
+    100% {
+      width: 100%;
+      opacity: 1;
+    }
+  }
+
+  .read-more {
+    text-align: right;
+    a {
+      text-decoration: none;
+      width: auto;
+      font-size: 0.9rem;
+      color: $color-blue;
+      text-align: right;
+    }
+    a:hover,
+    a:focus {
+      // font-weight: bolder;
+      background-color: $color-blue-light;
+      color: black;
+    }
   }
 }

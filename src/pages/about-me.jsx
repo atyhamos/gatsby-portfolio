@@ -5,12 +5,16 @@ import '@fontsource/playfair-display/600.css'
 import '@fontsource/playfair-display/700.css'
 import '../styles/aboutme.scss'
 import AboutMe from '../components/AboutMe/AboutMe.component'
+import Navigation from '../components/Navigation/Navigation.component'
 
 const AboutPage = () => {
   return (
-    <div className='body-container'>
-      <AboutMe />
-    </div>
+    <>
+      <Navigation />
+      <div className='body-container'>
+        <AboutMe />
+      </div>
+    </>
   )
 }
 

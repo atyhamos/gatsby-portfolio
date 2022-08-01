@@ -1,0 +1,36 @@
+$color-yellow-dark: #d79922;
+$color-beige: #efe2ba;
+$color-red-orange: #f13c20;
+$color-blue: #4056a1;
+$color-blue-light: #c5cbe3;
+
+.skills-section-container {
+  height: 100vh;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1em;
+  span {
+    i {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    // border: 1px solid black;
+    color: black;
+    text-align: center;
+    padding: 0.5em 0.7em;
+    scale: 1;
+    transition: scale 250ms;
+  }
+
+  span:hover,
+  span:focus {
+    background-color: $color-beige;
+    scale: 1.1;
+  }
+}

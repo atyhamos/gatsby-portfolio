@@ -10,6 +10,7 @@ import Contact from '../components/Contact/Contact.component'
 import Navigation from '../components/Navigation/Navigation.component'
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer/Footer.component'
+import Skills from '../components/Skills/Skills.component'
 
 const IndexPage = () => {
   return (
@@ -20,9 +21,10 @@ const IndexPage = () => {
           href='https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css'
         />
       </Helmet>
+      <Navigation />
       <div className='body-container'>
-        <Navigation />
         <Hero />
+        <Skills />
         <Projects />
         <Contact />
       </div>

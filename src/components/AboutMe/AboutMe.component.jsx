@@ -1,12 +1,10 @@
 import React from 'react'
 import './AboutMe.component.scss'
-import Navigation from '../Navigation/Navigation.component'
 
 const AboutMe = () => {
   return (
-    <div>
-      <Navigation />
-      <div>This is the about me.</div>
+    <div className='about-me-container'>
+      <h2 className='header-underline'>About Me</h2>
     </div>
   )
 }

@@ -1,3 +1,19 @@
+$color-yellow-dark: #d79922;
+$color-beige: #efe2ba;
+$color-beige-light: #f8f4e9;
+$color-red-orange: #f13c20;
+$color-blue: #4056a1;
+$color-blue-light: #c5cbe3;
+
+.contact-section-container {
+  height: 75vh;
+}
+
+.form-card {
+  background: $color-beige-light;
+  padding: 1em;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -5,9 +21,30 @@ form {
   textarea,
   button {
     font-family: 'Raleway', serif;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     font-size: 1rem;
     padding: 0.2em 0.2em 0.2em 0.4em;
+  }
+
+  label {
+    margin-bottom: 0.25em;
+  }
+
+  button {
+    width: fit-content;
+    padding: 1em 1.75em;
+    margin: 0 auto;
+    font-weight: bold;
+    border: 0;
+    background: $color-blue;
+    color: $color-beige-light;
+    cursor: pointer;
+    transition: background 0.25s, color 0.25s;
+  }
+  button:hover,
+  button:focus {
+    background: $color-blue-light;
+    color: black;
   }
 }
 
@@ -18,4 +55,11 @@ form {
   font-weight: 600;
   text-decoration: none;
   border-bottom: 1px solid;
+  font-size: 1.1rem;
+  transition: color 0.25s;
+}
+
+.email-address:hover,
+.email-address:focus {
+  color: $color-yellow-dark;
 }

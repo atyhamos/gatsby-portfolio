@@ -7,27 +7,35 @@ $color-blue-light: #c5cbe3;
 
 .navigation-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  background-color: $color-blue-light;
+  position: fixed;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  box-sizing: border-box;
   align-items: center;
-  margin-bottom: 4em;
+  justify-content: space-between;
+  z-index: 1;
   .navigation-name {
     box-sizing: content-box;
-    background-color: $color-blue;
-    color: #f5f5f5;
     padding: 0.5em;
+    font-weight: bold;
+    font-size: 1.2rem;
+    a {
+      text-decoration: none;
+      color: black;
+    }
   }
   .button-container {
     display: inline-block;
     cursor: pointer;
     border: 0;
-    background-color: #f5f5f5;
+    background-color: #f5f5f500;
     .bar-top,
     .bar-middle,
     .bar-bottom {
       width: 35px;
       height: 5px;
-      background-color: #333;
+      background-color: black;
       margin: 6px 0;
       transition: 0.4s;
       pointer-events: none;
@@ -36,7 +44,6 @@ $color-blue-light: #c5cbe3;
 
   .navigation-open {
     z-index: 2;
-    background-color: $color-blue;
     .bar-top,
     .bar-middle,
     .bar-bottom {
@@ -56,6 +63,17 @@ $color-blue-light: #c5cbe3;
       transform: rotate(45deg) translate(-8px, -8px);
     }
   }
+
+  .modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(70, 70, 70, 0.507);
+    backdrop-filter: blur(2px);
+    z-index: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
 }
 
 .overlay-container {
@@ -64,29 +82,31 @@ $color-blue-light: #c5cbe3;
   margin-top: 93vh;
   height: 100vh;
   right: 0;
-  width: 50vw;
+  width: 30vw;
   list-style-type: none;
   padding-top: 200px;
   -webkit-font-smoothing: antialiased;
   transform: translate(100%, 0);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   z-index: 1;
+
   li {
     position: relative;
-    margin: 1.5em 0;
     z-index: 0;
-
+    margin: 1.5em 0;
+    font-weight: 600;
+    font-size: 1.2rem;
     a {
       text-decoration: none;
-      color: white;
-      position: relative;
+      color: #f5f5f5;
     }
 
     a:hover,
     a:focus {
       background: linear-gradient(
-        rgba(255, 255, 255, 0) 50%,
-        rgba(255, 255, 255, 0.25) 50%
+        to top,
+        rgba(255, 255, 255, 0.397) 30%,
+        transparent 70%
       );
     }
   }
