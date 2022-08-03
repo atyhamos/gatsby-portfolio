@@ -6,6 +6,7 @@ import '@fontsource/playfair-display/700.css'
 import '../styles/aboutme.scss'
 import AboutMe from '../components/AboutMe/AboutMe.component'
 import Navigation from '../components/Navigation/Navigation.component'
+import Footer from '../components/Footer/Footer.component'
 
 const AboutPage = () => {
   return (
@@ -14,6 +15,7 @@ const AboutPage = () => {
       <div className='body-container'>
         <AboutMe />
       </div>
+      <Footer />
     </>
   )
 }

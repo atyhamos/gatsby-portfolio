@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Navigation.component.scss'
 import '@fontsource/playfair-display'
+import { AnchorLink } from 'gatsby-plugin-anchor-links'
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -33,19 +34,29 @@ const Navigation = () => {
       </button>
       <ul className='overlay-container'>
         <li onClick={closeMenu}>
-          <a href='/#home'>home</a>
+          <AnchorLink to='/#home' title='Home'>
+            home
+          </AnchorLink>
         </li>
         <li onClick={closeMenu}>
-          <a href='/about-me'>about me</a>
+          <AnchorLink to='/about-me/#intro' title='About Me'>
+            about me
+          </AnchorLink>
         </li>
         <li onClick={closeMenu}>
-          <a href='/#skills'>skills</a>
+          <AnchorLink to='/#skills' title='Skills'>
+            skills
+          </AnchorLink>
         </li>
         <li onClick={closeMenu}>
-          <a href='/#projects'>projects</a>
+          <AnchorLink to='/#projects' title='Projects'>
+            projects
+          </AnchorLink>
         </li>
         <li onClick={closeMenu}>
-          <a href='/#contact'>contact</a>
+          <AnchorLink to='/#contact' title='Contact'>
+            contact
+          </AnchorLink>
         </li>
         <br />
         <li>

@@ -15,7 +15,6 @@ const Contact = () => {
       className='contact-section-container'
     >
       <a className='anchor' id='contact'></a>
-
       <h2 className='header-underline'>Keep In Touch</h2>
       <p>
         Feel free to drop me an email if you have a question, or just want to
