@@ -11,12 +11,20 @@ const Footer = () => {
       </span>
       <ul className='social-links'>
         <li>
-          <a href='https://www.linkedin.com/in/amos-tan-yh/' target='_blank'>
+          <a
+            href='https://www.linkedin.com/in/amos-tan-yh/'
+            target='_blank'
+            rel='noreferrer'
+          >
             <i class='devicon-linkedin-plain' />
           </a>
         </li>
         <li>
-          <a href='https://github.com/atyhamos' target='_blank'>
+          <a
+            href='https://github.com/atyhamos'
+            target='_blank'
+            rel='noreferrer'
+          >
             <i class='devicon-github-original colored' />
           </a>
         </li>

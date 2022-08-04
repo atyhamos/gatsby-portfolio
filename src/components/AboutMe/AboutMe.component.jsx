@@ -4,48 +4,51 @@ import './AboutMe.component.scss'
 const AboutMe = () => {
   return (
     <div className='about-me-container'>
-      <a className='anchor' id='intro'></a>
-      <h2 className='header-underline'>How I got here</h2>
+      <div className='anchor' id='intro'></div>
+      <h1>How I got here</h1>
+      <span>My journey to a front end developer.</span>
       <div className='intro-container-art'>
-        <h3>My love for Design</h3>
+        <h2 className='header-underline'>Design</h2>
         <p>
-          From a young age, I was obsessed with characters from TV shows and
-          videogames. Seeing their colours and designs was like pure dopamine
-          for my 10 year-old brain.
+          Like most kids growing up, I was obsessed with TV shows and
+          videogames. I often tried to emulate the designs that I saw on the big
+          screen, defacing my school notebook with characters from Pokemon,
+          Dragon Ball, Sonic. While they weren't great, I knew I wanted to
+          create art, or at least something that makes someone say 'Wow that
+          looks so cool!'.
         </p>
-        <p>
-          I remember always doodling on my notebook, trying to draw a dragon or
-          dino or a poor attempt at a Pokemon. I wanted to create art.
-        </p>
-        <p>
+        {/* <p>
           In high school, I studied visual arts for 4 years and strengthened my
           design competencies. I also returned to school as an assistant teacher
           after graduating, helping others fall in love with art and design.
-        </p>
-        <p>Insert design ideas</p>
+        </p> */}
+        {/* <p>Insert design ideas</p> */}
       </div>
       <div className='intro-container-cs'>
-        <h3>My love for Computer Science</h3>
+        <h2 className='header-underline'>Computer Science</h2>
         <p>
-          In 2018, I bought a new smartphone: an LG G6, which replaced my old
-          OnePlus 3, but not for long. Back then, I thought, 'Newer phones
-          should be faster and better, right?'
+          In 2018, I bought a new smartphone to replace my old one, but despite
+          its newer processor, it didn't feel as smooth. Eventually, I found a
+          fix which led me down the rabbit hole of "rooting" and custom roms.
         </p>
         <p>
-          Despite the newer processor, the LG had more stutters and performance
-          issues, and after searching forums, I realised I was not alone in this
-          issue. Eventually, I found a fix which led me down the rabbit hole
-          known as rooting and custom roms.
-        </p>
-        <p>
-          Operating systems, RAM, cache, overclocking, all the words that I
-          never fully understood were slowly introduced into my vocabulary. I
-          fell in love with the intricacies of tech as a whole, and sparked my
-          interest in studying Computer Science.
+          Terms like operating systems, RAM, cache, overclocking and more were
+          slowly introduced into my vocabulary. I fell in love with the
+          intricacies of tech that we use daily, which sparked my interest in
+          studying Computer Science.
         </p>
       </div>
       <div className='intro-container-end'>
-        <h3>My love for Web Development</h3>
+        <h2 className='header-underline'>Front End Development</h2>
+        <p>
+          With a passion for creating beautiful designs and a desire to
+          understand the technology that powers so many modern applications,
+          front end development felt like a no-brainer.
+        </p>
+        <p>
+          But, I'm no purist. As the tech indusry evolves and new technologies
+          emerge, I'll be ready to pick up new skills and new passions.
+        </p>
         <div className='portrait' />
         <span className='caption'>
           Probably the most formal photo of myself that I own

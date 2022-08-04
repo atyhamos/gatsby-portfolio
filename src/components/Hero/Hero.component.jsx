@@ -5,7 +5,7 @@ import './Hero.component.scss'
 const Hero = () => {
   return (
     <>
-      <a className='anchor' id='home'></a>
+      <div className='anchor' id='home'></div>
       <div className='hero-container'>
         <motion.h1
           initial={{ opacity: 0 }}

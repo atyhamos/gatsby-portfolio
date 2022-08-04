@@ -14,7 +14,7 @@ const Contact = () => {
       transition={{ duration: 0.75 }}
       className='contact-section-container'
     >
-      <a className='anchor' id='contact'></a>
+      <div className='anchor' id='contact'></div>
       <h2 className='header-underline'>Keep In Touch</h2>
       <p>
         Feel free to drop me an email if you have a question, or just want to

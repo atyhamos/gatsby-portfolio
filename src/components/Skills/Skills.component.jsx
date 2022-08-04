@@ -11,7 +11,7 @@ const Skills = () => {
       transition={{ duration: 0.75 }}
       className='skills-section-container'
     >
-      <a className='anchor' id='skills'></a>
+      <div className='anchor' id='skills'></div>
       <h2 className='header-underline'>My Skills</h2>
       <div className='skills-container'>
         <span>

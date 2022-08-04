@@ -96,6 +96,12 @@ $color-blue-light: #c5cbe3;
     margin: 1.5em 0;
     font-weight: 600;
     font-size: 1.2rem;
+
+    .list-button {
+      background: none;
+      border: none;
+      font: inherit;
+    }
     a {
       text-decoration: none;
       color: #f5f5f5;

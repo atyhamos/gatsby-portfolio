@@ -11,7 +11,7 @@ const Projects = () => {
       transition={{ duration: 0.75 }}
       className='projects-section-container'
     >
-      <a className='anchor' id='projects'></a>
+      <div className='anchor' id='projects'></div>
       <h2 className='header-underline'>Recent Projects</h2>
       <p>
         When I'm not busy watching Netflix, I enjoy working on projects to

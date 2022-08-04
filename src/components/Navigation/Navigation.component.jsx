@@ -33,44 +33,66 @@ const Navigation = () => {
         <div className='bar-bottom'></div>
       </button>
       <ul className='overlay-container'>
-        <li onClick={closeMenu}>
-          <AnchorLink to='/#home' title='Home'>
-            home
-          </AnchorLink>
+        <li>
+          <button className='list-button' onClick={closeMenu}>
+            <AnchorLink to='/#home' title='Home'>
+              home
+            </AnchorLink>
+          </button>
         </li>
-        <li onClick={closeMenu}>
-          <AnchorLink to='/about-me/#intro' title='About Me'>
-            about me
-          </AnchorLink>
+        <li>
+          <button className='list-button' onClick={closeMenu}>
+            <AnchorLink to='/about-me/#intro' title='About Me'>
+              about me
+            </AnchorLink>
+          </button>
         </li>
-        <li onClick={closeMenu}>
-          <AnchorLink to='/#skills' title='Skills'>
-            skills
-          </AnchorLink>
+        <li>
+          <button className='list-button' onClick={closeMenu}>
+            <AnchorLink to='/#skills' title='Skills'>
+              skills
+            </AnchorLink>
+          </button>
         </li>
-        <li onClick={closeMenu}>
-          <AnchorLink to='/#projects' title='Projects'>
-            projects
-          </AnchorLink>
+        <li>
+          <button className='list-button' onClick={closeMenu}>
+            <AnchorLink to='/#projects' title='Projects'>
+              projects
+            </AnchorLink>
+          </button>
         </li>
-        <li onClick={closeMenu}>
-          <AnchorLink to='/#contact' title='Contact'>
-            contact
-          </AnchorLink>
+        <li>
+          <button className='list-button' onClick={closeMenu}>
+            <AnchorLink to='/#contact' title='Contact'>
+              contact
+            </AnchorLink>
+          </button>
         </li>
         <br />
         <li>
-          <a href='https://www.linkedin.com/in/amos-tan-yh/' target='_blank'>
+          <a
+            href='https://www.linkedin.com/in/amos-tan-yh/'
+            target='_blank'
+            rel='noreferrer'
+          >
             linkedin
           </a>
         </li>
         <li>
-          <a href='https://github.com/atyhamos' target='_blank'>
+          <a
+            href='https://github.com/atyhamos'
+            target='_blank'
+            rel='noreferrer'
+          >
             github
           </a>
         </li>
       </ul>
-      {isOpen && <div className='modal' onClick={closeMenu} />}
+      {isOpen && (
+        <button className='modal' onClick={closeMenu} onKeyDown={closeMenu}>
+          {' '}
+        </button>
+      )}
     </nav>
   )
 }
