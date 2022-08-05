@@ -6,16 +6,16 @@ const Hero = () => {
   return (
     <>
       <div className='anchor' id='home'></div>
-      <div className='hero-container'>
+      <div className='full-page-container hero-container'>
         <motion.h1
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: false, amount: 0.8 }}
           transition={{ duration: 0.75 }}
         >
-          <span>Hi, I'm Amos.</span>
+          <span>Hi, I'm Amos,</span>
           <br />
-          <span className='developer'>Front End Developer.</span>
+          <span className='developer'>Web Developer.</span>
         </motion.h1>
         <motion.div
           initial={{ opacity: 0 }}
@@ -34,9 +34,13 @@ const Hero = () => {
             <span className='highlight-responsive'>responsive</span> websites
             and applications that are enjoyable to use.
           </p>
-          <div className='read-more'>
+          <span className='read-more'>
             <a href='/about-me'>read more about me...</a>
-          </div>
+          </span>
+          <br />
+          <a className='arrow' href='#skills'>
+            ↓
+          </a>
         </motion.div>
       </div>
     </>

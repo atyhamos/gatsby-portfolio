@@ -76,6 +76,10 @@ const Contact = () => {
           )}
         </div>
       </>
+      <br />
+      <a className='arrow' href='#projects'>
+        ↑
+      </a>
     </motion.div>
   )
 }

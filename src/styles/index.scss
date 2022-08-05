@@ -71,3 +71,28 @@ p {
   width: 80px;
   z-index: -1;
 }
+
+// navigation arrows
+.arrow {
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: auto;
+  font-size: 3rem;
+  text-decoration: none;
+  color: $color-yellow-dark;
+  background: $color-blue;
+  width: 3rem;
+  height: 3rem;
+}
+
+.arrow:hover,
+.arrow:focus {
+  color: $color-blue;
+  background: $color-yellow-dark;
+}
+
+.full-page-container {
+  height: 100vh;
+}

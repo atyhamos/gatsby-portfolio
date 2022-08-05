@@ -5,14 +5,14 @@ $color-blue: #4056a1;
 $color-blue-light: #c5cbe3;
 
 .hero-container {
-  height: 100vh;
   display: grid;
   place-content: center;
 
   h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .developer {
+    font-size: 2.8rem;
     color: $color-yellow-dark;
   }
 

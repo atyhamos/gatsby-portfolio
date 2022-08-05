@@ -9,7 +9,7 @@ const Skills = () => {
       whileInView={{ opacity: 1 }}
       viewport={{ once: false, amount: 0.3 }}
       transition={{ duration: 0.75 }}
-      className='skills-section-container'
+      className='full-page-container'
     >
       <div className='anchor' id='skills'></div>
       <h2 className='header-underline'>My Skills</h2>
@@ -52,6 +52,13 @@ const Skills = () => {
         real-world problems, and I'm eager to learn more as I grow as a
         developer.
       </p>
+      <a className='arrow' href='#home'>
+        ↑
+      </a>
+      <br />
+      <a className='arrow' href='#projects'>
+        ↓
+      </a>
     </motion.div>
   )
 }
