@@ -1,8 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import './Trax.component.scss'
 import Highlight from '../Highlight/Highlight.component'
 import { colorBlack, colorYellowDark } from '../Colors'
+import './Trax.component.scss'
 
 const Trax = () => {
   return (

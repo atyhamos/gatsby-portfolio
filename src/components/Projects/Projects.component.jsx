@@ -1,6 +1,7 @@
 import React from 'react'
-import './Projects.component.scss'
 import { motion } from 'framer-motion'
+import './Projects.component.scss'
+import Project from '../Project/Project.component'
 
 const Projects = () => {
   return (
@@ -18,24 +19,14 @@ const Projects = () => {
         solidify my understanding of the skills I've learnt and create something
         either useful or fun.
       </p>
-      <div className='projects-container'>List projects here</div>
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: false, amount: 0.3 }}
-        transition={{ duration: 1.5 }}
-        className='project-container'
-      >
-        <h3>Trax</h3>
-        <span>React, Sass, Firebase</span>
-        <p>
-          A full-stack web application built for teachers to track their
-          students' learning progress.
-        </p>
-        <a href='/trax' className='view-link'>
-          View project
-        </a>
-      </motion.div>
+      <div className='projects-container'>
+        <Project
+          pageLink='/trax'
+          imageClass='trax-image'
+          title='Trax'
+          description="A full-stack web application built for teachers to track their students' learning progress."
+        />
+      </div>
       <a className='arrow' href='#skills'>
         ↑
       </a>
