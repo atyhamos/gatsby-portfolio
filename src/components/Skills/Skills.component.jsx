@@ -15,35 +15,35 @@ const Skills = () => {
       <h2 className='header-underline'>My Skills</h2>
       <div className='skills-container'>
         <span>
-          <i class='devicon-javascript-plain colored' />
+          <i className='devicon-javascript-plain colored' />
           JavaScript ES6
         </span>
         <span>
-          <i class='devicon-sass-original colored' />
+          <i className='devicon-sass-original colored' />
           Sass
         </span>
         <span>
-          <i class='devicon-react-original colored' />
+          <i className='devicon-react-original colored' />
           React
         </span>
         <span>
-          <i class='devicon-nodejs-plain colored' />
+          <i className='devicon-nodejs-plain colored' />
           Node.js
         </span>
         <span>
-          <i class='devicon-html5-plain colored' />
+          <i className='devicon-html5-plain colored' />
           HTML
         </span>
         <span>
-          <i class='devicon-css3-plain colored' />
+          <i className='devicon-css3-plain colored' />
           CSS
         </span>
         <span>
-          <i class='devicon-git-plain colored' />
+          <i className='devicon-git-plain colored' />
           Git
         </span>
         <span>
-          <i class='devicon-firebase-plain colored' /> Firebase
+          <i className='devicon-firebase-plain colored' /> Firebase
         </span>
       </div>
       <p>

@@ -1,0 +1,8 @@
+export const colorYellowDark = '#d79922'
+export const colorBeige = '#efe2ba'
+export const colorBeigelight = '#f8f4e9'
+export const colorRedOrange = '#f13c20'
+export const colorBlue = '#4056a1'
+export const colorBlueLight = '#c5cbe3'
+export const colorWhite = '#f5f5f5'
+export const colorBlack = '#000000'

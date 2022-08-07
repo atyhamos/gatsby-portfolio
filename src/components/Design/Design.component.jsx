@@ -18,9 +18,9 @@ const Design = () => {
       <p>
         Like most kids growing up, I was obsessed with TV shows and playing
         videogames. I often tried to emulate the designs that I saw on the big
-        screen, defacing my school notebook with characters from Pokemon, Dragon
-        Ball, Sonic. While they weren't great, I knew I wanted to create art, or
-        at least something that makes someone say 'Wow, that looks so cool!'.
+        screen, defacing my school notebook with doodles of some of my favourite
+        Pokémon. While they weren't great, I knew I wanted to create art, or at
+        least something that makes someone say 'Wow, that looks so cool!'.
       </p>
       <a className='arrow' href='#intro'>
         ↑

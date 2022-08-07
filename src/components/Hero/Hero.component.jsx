@@ -1,6 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import './Hero.component.scss'
+import Highlight from '../Highlight/Highlight.component'
+import { colorBlack, colorBlue, colorWhite, colorYellowDark } from '../Colors'
 
 const Hero = () => {
   return (
@@ -29,10 +31,16 @@ const Hero = () => {
           </p>
           <p>
             I used to study{' '}
-            <span className='highlight-arts'>visual arts and design.</span> Now,
-            I hope to make beautiful,{' '}
-            <span className='highlight-responsive'>responsive</span> websites
-            and applications that are enjoyable to use.
+            <Highlight duration={1.5}>visual arts and design.</Highlight> Now, I
+            hope to make beautiful,{' '}
+            <Highlight
+              backgroundColor={colorYellowDark}
+              color={colorBlack}
+              waitDuration={1}
+            >
+              responsive
+            </Highlight>{' '}
+            websites and applications that are enjoyable to use.
           </p>
           <span className='read-more'>
             <a href='/about-me'>read more about me...</a>

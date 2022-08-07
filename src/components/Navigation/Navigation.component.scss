@@ -7,7 +7,8 @@ $color-blue-light: #c5cbe3;
 
 .navigation-container {
   display: flex;
-  background-color: $color-blue-light;
+  background-color: $color-beige;
+  border-bottom: #c5cbe3 1px solid;
   position: fixed;
   width: 100%;
   padding: 1rem 1.5rem;

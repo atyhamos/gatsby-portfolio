@@ -1,0 +1,21 @@
+$color-yellow-dark: #d79922;
+$color-beige: #efe2ba;
+$color-beige-light: #f8f4e9;
+$color-red-orange: #f13c20;
+$color-blue: #4056a1;
+$color-blue-light: #c5cbe3;
+
+.trax-container {
+  .trax-hero {
+    display: grid;
+    place-content: center;
+
+    h1 {
+      font-size: 5rem;
+      margin-bottom: 0;
+    }
+    h2 {
+      color: darkgray;
+    }
+  }
+}

@@ -16,7 +16,7 @@ const Footer = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <i class='devicon-linkedin-plain' />
+            <i className='devicon-linkedin-plain' />
           </a>
         </li>
         <li>
@@ -25,7 +25,7 @@ const Footer = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <i class='devicon-github-original colored' />
+            <i className='devicon-github-original colored' />
           </a>
         </li>
       </ul>

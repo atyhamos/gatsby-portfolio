@@ -20,7 +20,7 @@ const WebDev = () => {
       </p>
       <p>
         But, I'm no purist. As the tech indusry evolves and new technologies
-        emerge, I'll be ready to pick up new skills and new passions.
+        emerge, I'll be ready to pick up new skills and develop new passions.
       </p>
       <div className='photo portrait' />
       <span className='caption'>
