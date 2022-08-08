@@ -31,7 +31,7 @@ const Trax = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true, amount: 0.8 }}
-          transition={{ duration: 1.5 }}
+          transition={{ duration: 1 }}
           className='sub-header'
         >
           Student Management System
@@ -40,7 +40,7 @@ const Trax = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 1.5 }}
+          transition={{ duration: 1 }}
         >
           <p className='project-tagline'>
             Trax is a web application built for
@@ -56,12 +56,12 @@ const Trax = () => {
             of
             <Highlight waitDuration={0.5}>students.</Highlight>
           </p>
+          <InfoTable
+            stack={['React', 'Sass', 'Firebase', 'Netlify']}
+            codeUrl='https://github.com/atyhamos/trax'
+            siteUrl='https://tourmaline-granita-38225a.netlify.app/'
+          />
         </motion.div>
-        <InfoTable
-          stack={['React', 'Sass', 'Firebase', 'Netlify']}
-          codeUrl='https://github.com/atyhamos/trax'
-          siteUrl='https://tourmaline-granita-38225a.netlify.app/'
-        />
       </div>
       <div className='project-details'>
         <div className='project-purpose'>

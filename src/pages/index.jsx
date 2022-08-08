@@ -20,6 +20,7 @@ const IndexPage = () => {
           rel='stylesheet'
           href='https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css'
         />
+        <title>Amos - Portfolio</title>
       </Helmet>
       <Navigation />
       <div className='body-container'>
