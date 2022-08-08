@@ -1,22 +1,27 @@
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   margin-top: 1em;
-  padding: 1em 0;
+  padding: 0.25em 0;
   background: #efe2ba;
   text-align: center;
+  font-size: 0.8rem;
 }
 
 .social-links {
   display: flex;
   list-style-type: none;
   justify-content: center;
-
+  padding-bottom: 0;
+  margin: 0.25em 0;
   li {
     margin-right: 1em;
     a {
       text-decoration: none;
       i {
         color: black;
-        font-size: 1.5rem;
+        font-size: 1rem;
       }
     }
   }

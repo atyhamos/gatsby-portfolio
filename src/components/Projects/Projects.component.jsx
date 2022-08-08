@@ -21,7 +21,7 @@ const Projects = () => {
       </p>
       <div className='projects-container'>
         <Project
-          pageLink='/trax'
+          pageLink='/trax/#info'
           imageClass='trax-image'
           title='Trax'
           description="A full-stack web application built for teachers to track their students' learning progress."

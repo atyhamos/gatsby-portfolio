@@ -1,0 +1,32 @@
+$color-yellow-dark: #d79922;
+$color-beige: #efe2ba;
+$color-beige-light: #f8f4e9;
+$color-red-orange: #f13c20;
+$color-blue: #4056a1;
+$color-blue-light: #c5cbe3;
+
+.project-info-container {
+  .container-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    .container-column-header {
+      font-weight: bolder;
+      text-transform: uppercase;
+      margin-bottom: 1em;
+    }
+    .container-column {
+      line-height: 1.5rem;
+      a {
+        text-decoration: none;
+        color: $color-blue;
+        font-weight: bolder;
+        border-bottom: none;
+        transition: color 0.5s ease;
+      }
+      a:hover,
+      a:focus {
+        color: $color-yellow-dark;
+      }
+    }
+  }
+}

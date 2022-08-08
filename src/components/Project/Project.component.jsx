@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import './Project.component.scss'
 import Highlight from '../Highlight/Highlight.component'
+import { AnchorLink } from 'gatsby-plugin-anchor-links'
 
 const Project = ({ ...props }) => {
   const [isFocus, setIsFocus] = useState(false)
@@ -28,13 +29,13 @@ const Project = ({ ...props }) => {
         <h3>{title}</h3>
       </a>
       <p>{description}</p>
-      <a href={pageLink} className='view-link'>
+      <AnchorLink to={pageLink} className='view-link'>
         {isFocus ? (
           <Highlight duration={0.5}>View project</Highlight>
         ) : (
           'View project'
         )}
-      </a>
+      </AnchorLink>
     </motion.div>
   )
 }

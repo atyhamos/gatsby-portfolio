@@ -24,6 +24,7 @@ const Hero = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: false, amount: 0.8 }}
           transition={{ duration: 1.5 }}
+          className='hero-intro'
         >
           <p>
             I'm a 23-year old Computer Science student at the National

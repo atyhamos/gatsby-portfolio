@@ -7,7 +7,7 @@ const Footer = () => {
       <span>© 2022 | Designed and built by Amos Tan</span>
       <br />
       <span>
-        Powered by GatsbyJS <i class='devicon-gatsby-plain' />
+        Powered by GatsbyJS <i className='devicon-gatsby-plain' />
       </span>
       <ul className='social-links'>
         <li>

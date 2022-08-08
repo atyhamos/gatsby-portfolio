@@ -12,7 +12,7 @@ const Contact = () => {
       whileInView={{ opacity: 1 }}
       viewport={{ once: false, amount: 0.3 }}
       transition={{ duration: 0.75 }}
-      className='contact-section-container'
+      className='full-page-container'
     >
       <div className='anchor' id='contact'></div>
       <h2 className='header-underline'>Keep In Touch</h2>
