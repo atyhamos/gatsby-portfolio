@@ -6,6 +6,7 @@ $color-blue: #4056a1;
 $color-blue-light: #c5cbe3;
 
 .trax-container {
+  padding-bottom: 5em;
   .trax-hero {
     display: grid;
     place-content: center;
@@ -20,6 +21,7 @@ $color-blue-light: #c5cbe3;
   }
 }
 
-.project-tagline {
-  // line-height: 2.2rem;
+.trax-page-image {
+  width: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
