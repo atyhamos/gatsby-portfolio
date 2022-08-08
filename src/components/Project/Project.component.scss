@@ -45,3 +45,10 @@ $color-blue-light: #c5cbe3;
 .trax-image {
   background-image: url('../../images/trax-mockup.png');
 }
+
+@media (min-width: 961px) {
+  .project-container {
+    max-width: 45%;
+    height: 300px;
+  }
+}

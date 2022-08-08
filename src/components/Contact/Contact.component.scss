@@ -5,8 +5,8 @@ $color-red-orange: #f13c20;
 $color-blue: #4056a1;
 $color-blue-light: #c5cbe3;
 
-.contact-section-container {
-  height: 80vh;
+.contact-container {
+  padding-bottom: 5em;
 }
 
 .form-card {
@@ -62,4 +62,21 @@ form {
 .email-address:hover,
 .email-address:focus {
   color: $color-yellow-dark;
+}
+
+@media (min-width: 961px) {
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    .contact-details {
+      width: 35%;
+    }
+    .contact-form {
+      width: 45%;
+      .form-card {
+        padding: 0;
+      }
+    }
+  }
 }

@@ -25,3 +25,20 @@ $color-blue-light: #c5cbe3;
   width: 100%;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
+@media (min-width: 961px) {
+  .trax-container {
+    margin: 0 auto;
+    max-width: 90%;
+    display: flex;
+    .trax-hero {
+      width: 35%;
+      position: fixed;
+    }
+    .project-details {
+      width: 45%;
+      margin-left: 55%;
+      margin-top: 5em;
+    }
+  }
+}

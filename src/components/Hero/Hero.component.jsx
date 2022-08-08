@@ -12,7 +12,7 @@ const Hero = () => {
         <motion.h1
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          viewport={{ once: false, amount: 0.8 }}
+          viewport={{ once: true, amount: 0.8 }}
           transition={{ duration: 0.75 }}
         >
           <span>Hi, I'm Amos,</span>
@@ -22,7 +22,7 @@ const Hero = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          viewport={{ once: false, amount: 0.8 }}
+          viewport={{ once: true, amount: 0.8 }}
           transition={{ duration: 1.5 }}
           className='hero-intro'
         >

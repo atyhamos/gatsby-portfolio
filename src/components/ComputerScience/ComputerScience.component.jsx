@@ -7,7 +7,7 @@ const ComputerScience = () => {
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
-      viewport={{ once: false, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.75 }}
       className='full-page-container intro-container-cs'
     >

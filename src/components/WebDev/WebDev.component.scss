@@ -1,0 +1,26 @@
+.portrait {
+  background-image: url('../../images/Portrait.png');
+  background-position: top !important;
+}
+
+.about-me-projects {
+  margin-top: 1em;
+}
+
+@media (min-width: 961px) {
+  .about-me-flex {
+    align-items: flex-start;
+    .about-me-flex-picture {
+      div {
+        max-height: 500px;
+      }
+    }
+    .about-me-flex-projects {
+      max-width: 40%;
+      margin-top: 0;
+      * {
+        max-width: 100%;
+      }
+    }
+  }
+}

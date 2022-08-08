@@ -11,7 +11,7 @@ $color-blue-light: #c5cbe3;
   border-bottom: #c5cbe3 1px solid;
   position: fixed;
   width: 100%;
-  padding: 1rem 1.5rem;
+  padding: 1em 1.5em;
   box-sizing: border-box;
   align-items: center;
   justify-content: space-between;
@@ -84,6 +84,7 @@ $color-blue-light: #c5cbe3;
   height: 100vh;
   right: 0;
   width: 30vw;
+  max-width: 200px;
   list-style-type: none;
   padding-top: 200px;
   -webkit-font-smoothing: antialiased;
@@ -122,4 +123,10 @@ $color-blue-light: #c5cbe3;
 .navigation-open ~ .overlay-container {
   transform: none;
   opacity: 1;
+}
+
+@media (min-width: 961px) {
+  .navigation-container {
+    font-size: 0.6rem;
+  }
 }

@@ -48,7 +48,7 @@ h2 {
 }
 
 p {
-  line-height: 1.4em;
+  line-height: 1.6em;
   font-size: 1.1rem;
 }
 
@@ -98,4 +98,30 @@ p {
 
 .full-page-container {
   height: 100vh;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 961px) {
+  html {
+    font-size: 1.125rem;
+  }
+  p {
+    line-height: 2rem;
+  }
+  .full-page-container {
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+  .arrow {
+    display: none;
+  }
+
+  .flex-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

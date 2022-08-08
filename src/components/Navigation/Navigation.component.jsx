@@ -25,7 +25,7 @@ const Navigation = () => {
   return (
     <nav className='navigation-container'>
       <span className='navigation-name'>
-        <a href='/'>amos tan</a>
+        <a href='/#home'>amos tan</a>
       </span>
       <button className='button-container' onClick={handleClick}>
         <div className='bar-top'></div>

@@ -10,21 +10,22 @@ const Contact = () => {
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
-      viewport={{ once: false, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.75 }}
-      className='full-page-container'
+      className='full-page-container contact-container'
     >
-      <div className='anchor' id='contact'></div>
-      <h2 className='header-underline'>Keep In Touch</h2>
-      <p>
-        Feel free to drop me an email if you have a question, or just want to
-        connect.
-      </p>
-      <a className='email-address' href='mailto:amostan.dev@gmail.com'>
-        amostan.dev@gmail.com
-      </a>
-
-      <>
+      <div className='contact-details'>
+        <div className='anchor' id='contact'></div>
+        <h2 className='header-underline'>Keep In Touch</h2>
+        <p>
+          Feel free to drop me an email if you have a question, or just want to
+          connect.
+        </p>
+        <a className='email-address' href='mailto:amostan.dev@gmail.com'>
+          amostan.dev@gmail.com
+        </a>
+      </div>
+      <div className='contact-form'>
         <p>or... fill out this form and I'll get back to you.</p>
         <div className='form-card'>
           <h3>Form Submission</h3>
@@ -75,11 +76,10 @@ const Contact = () => {
             </form>
           )}
         </div>
-      </>
-      <br />
-      <a className='arrow' href='#projects'>
-        ↑
-      </a>
+        <a className='arrow' href='#projects'>
+          ↑
+        </a>
+      </div>
     </motion.div>
   )
 }
