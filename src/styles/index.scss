@@ -126,3 +126,14 @@ p {
     justify-content: space-between;
   }
 }
+
+@media (max-height: 700px) and (orientation: landscape) {
+  html {
+    font-size: 1rem;
+  }
+}
+@media (max-height: 600px) and (orientation: landscape) {
+  html {
+    font-size: 0.9rem;
+  }
+}
