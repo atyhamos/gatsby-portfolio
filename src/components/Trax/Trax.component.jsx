@@ -59,7 +59,8 @@ const Trax = () => {
           <InfoTable
             stack={['React', 'Sass', 'Firebase', 'Netlify']}
             codeUrl='https://github.com/atyhamos/trax'
-            siteUrl='https://tourmaline-granita-38225a.netlify.app/'
+            siteUrl='http://trax-app.tech/'
+            demoUrl='https://www.youtube.com/watch?v=OcVNoOGojMk&feature=youtu.be'
           />
         </motion.div>
       </div>
@@ -82,12 +83,14 @@ const Trax = () => {
             volunteers often come and go, it's hard for the children to progress
             academically with no fixed record of their performance over time.
           </p>
-          <img
-            src={StudentFeedback}
-            alt='trax student feedback'
-            className='trax-page-image'
-          />
-          <ImageCaption>Student's page</ImageCaption>
+          <div className='vertical-image-block'>
+            <img
+              src={StudentFeedback}
+              alt='trax student feedback'
+              className='trax-page-image trax-vertical-image'
+            />
+            <ImageCaption>Student's page</ImageCaption>
+          </div>
           <p>
             Trax's goal is to have a central store of children (students) and
             their feedback, to make it easier for volunteers (teachers), to

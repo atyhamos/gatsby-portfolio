@@ -40,5 +40,16 @@ $color-blue-light: #c5cbe3;
       margin-left: 55%;
       margin-top: 5em;
     }
+    .trax-vertical-image {
+      max-width: 400px;
+      display: block;
+      margin: auto;
+    }
+    #trax-vertical-image-caption {
+      color: black;
+    }
+    .vertical-image-block {
+      text-align: center;
+    }
   }
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import './InfoTable.component.scss'
 
 const InfoTable = ({ ...props }) => {
-  const { stack, codeUrl, siteUrl } = props
+  const { stack, codeUrl, siteUrl, demoUrl } = props
   return (
     <div className='project-info-container'>
       <h3>Project Information</h3>
@@ -25,6 +25,10 @@ const InfoTable = ({ ...props }) => {
         <div className='container-column'>
           <a href={siteUrl} target='_blank' rel='noreferrer'>
             View Site
+          </a>
+          <br />
+          <a href={demoUrl} target='_blank' rel='noreferrer'>
+            Demo
           </a>
         </div>
       </div>
