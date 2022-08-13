@@ -9,7 +9,7 @@ const ComputerScience = () => {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.75 }}
-      className='full-page-container intro-container-cs'
+      className='page-container intro-container-cs'
     >
       <div className='anchor' id='cs'></div>
       <h2 className='header-underline'>Computer Science</h2>

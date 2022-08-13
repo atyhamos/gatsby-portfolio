@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import './Highlight.component.scss'
 import { colorBlue, colorWhite } from '../Colors'
+import './Highlight.component.scss'
 
 const Highlight = ({
   backgroundColor = colorBlue,

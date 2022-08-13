@@ -11,7 +11,7 @@ const WebDev = () => {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.75 }}
-      className='full-page-container intro-container-end'
+      className='page-container intro-container-end'
     >
       <div className='anchor' id='webdev'></div>
       <h2 className='header-underline'>Web Development</h2>

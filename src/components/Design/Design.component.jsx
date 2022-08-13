@@ -9,7 +9,7 @@ const Design = () => {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.75 }}
-      className='full-page-container intro-container-art'
+      className='page-container intro-container-art'
     >
       <div className='anchor' id='design'></div>
       <h2 className='header-underline'>Design</h2>

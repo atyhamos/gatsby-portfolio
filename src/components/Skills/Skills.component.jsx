@@ -9,7 +9,7 @@ const Skills = () => {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.75 }}
-      className='full-page-container'
+      className='page-container'
     >
       <div className='anchor' id='skills'></div>
       <h2 className='header-underline'>My Skills</h2>

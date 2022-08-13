@@ -12,7 +12,7 @@ const Contact = () => {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.75 }}
-      className='full-page-container contact-container'
+      className='page-container contact-container'
     >
       <div className='contact-details'>
         <div className='anchor' id='contact'></div>

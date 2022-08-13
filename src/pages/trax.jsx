@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import Navigation from '../components/Navigation/Navigation.component'
 import Trax from '../components/Trax/Trax.component'
 import Footer from '../components/Footer/Footer.component'
@@ -7,7 +8,6 @@ import '@fontsource/raleway'
 import '@fontsource/playfair-display/600.css'
 import '@fontsource/playfair-display/700.css'
 import '../styles/aboutme.scss'
-import { Helmet } from 'react-helmet'
 
 const TraxPage = () => {
   return (

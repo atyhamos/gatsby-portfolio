@@ -1,18 +1,13 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import ImageCaption from '../ImageCaption/ImageCaption.component'
 import Highlight from '../Highlight/Highlight.component'
-import {
-  colorBlack,
-  colorYellowDark,
-  colorRedOrange,
-  colorBlueLight,
-} from '../Colors'
-import './Trax.component.scss'
+import { colorBlack, colorYellowDark, colorBlueLight } from '../Colors'
 import InfoTable from '../InfoTable/InfoTable.component'
 import StudentList from '../../images/trax-1.png'
 import StudentFeedback from '../../images/trax-2.png'
 import SiteMap from '../../images/trax-sitemap-planning.svg'
-import ImageCaption from '../ImageCaption/ImageCaption.component'
+import './Trax.component.scss'
 
 const Trax = () => {
   return (

@@ -3,18 +3,3 @@ $color-beige: #efe2ba;
 $color-red-orange: #f13c20;
 $color-blue: #4056a1;
 $color-blue-light: #c5cbe3;
-
-.my-projects {
-  position: relative;
-}
-.my-projects:before {
-  position: absolute;
-  content: '';
-  height: 0.4em;
-  bottom: 0em;
-  left: -0.1em;
-  background-color: $color-red-orange;
-  width: 80px;
-  z-index: -1;
-}
-

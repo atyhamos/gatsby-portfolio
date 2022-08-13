@@ -88,6 +88,7 @@ p {
   background: $color-blue;
   width: 3rem;
   height: 3rem;
+  display: none;
 }
 
 .arrow:hover,
@@ -105,6 +106,11 @@ p {
   flex-direction: column;
 }
 
+.page-container {
+  padding: 5em 0;
+  margin: 2em 0;
+}
+
 @media (min-width: 961px) {
   html {
     font-size: 1.125rem;
@@ -117,8 +123,10 @@ p {
     max-width: 1000px;
     min-height: 1000px;
   }
-  .arrow {
-    display: none;
+
+  .page-container {
+    margin: 2em auto;
+    max-width: 1000px;
   }
 
   .flex-container {

@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import './Project.component.scss'
 import Highlight from '../Highlight/Highlight.component'
 import { AnchorLink } from 'gatsby-plugin-anchor-links'
+import './Project.component.scss'
 
 const Project = ({ ...props }) => {
   const [isFocus, setIsFocus] = useState(false)

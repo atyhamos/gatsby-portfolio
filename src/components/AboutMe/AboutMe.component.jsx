@@ -1,9 +1,9 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import './AboutMe.component.scss'
 import Design from '../Design/Design.component'
 import ComputerScience from '../ComputerScience/ComputerScience.component'
 import WebDev from '../WebDev/WebDev.component'
+import './AboutMe.component.scss'
 
 const AboutMe = () => {
   return (
