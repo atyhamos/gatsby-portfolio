@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import './Skills.component.scss'
+import Highlight from '../Highlight/Highlight.component'
 
 const Skills = () => {
   return (
@@ -52,6 +53,31 @@ const Skills = () => {
         real-world problems, and I'm eager to learn more as I grow as a
         developer.
       </p>
+      <p>
+        I wanted to spend more time building a{' '}
+        <Highlight>strong foundation</Highlight> in web development before
+        delving into frameworks like Bootstrap and other skills that may be more
+        advanced.
+      </p>
+      <p>Currently, these are the skills I am picking up:</p>
+      <div className='skills-container'>
+        <span>
+          <i className='devicon-bootstrap-plain colored' />
+          Bootstrap
+        </span>
+        <span>
+          <i className='devicon-jquery-plain colored' />
+          jQuery
+        </span>
+        <span>
+          <i className='devicon-redux-plain colored' />
+          Redux
+        </span>
+        <span>
+          <i className='devicon-postgresql-plain colored' />
+          PostgreSQL
+        </span>
+      </div>
       <a className='arrow' href='#home'>
         ↑
       </a>
